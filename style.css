@@ -10,3 +10,14 @@ Version:        0.1
 
 @import url("../twentythirteen/style.css");
 
+.site-title, .site-description {
+	background: rgba(255,255,255,0.8) !important;
+	border-radius: 10px;
+	padding: 5px 10px;
+	text-align: center;
+	width: 540px;
+	margin-bottom: 4px;
+}
+.home-link {
+	padding-top: 58px !important;
+}
