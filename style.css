@@ -14,6 +14,9 @@ Version:        0.1
 	font-style: normal !important;
 	font-weight: 600;
 }
+.site-header .search-form {
+	right: 0 !important;
+}
 .site-info a {
 	color: #000 !important;
 	float: right;
@@ -30,6 +33,9 @@ footer .current_page_item a {
 }
 .entry-title a {
 	color: #000 !important;
+}
+.nav-menu li:hover > a {
+	background: #000;
 }
 .site-title, .site-description {
 	background: rgba(255,255,255,0.8) !important;
@@ -58,4 +64,22 @@ h1,h2,
 }
 .paging-navigation .meta-nav {
 	background: #666 !important;
+}
+button:hover, button:focus, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus {
+	background: #0056b3 !important;
+	background: -webkit-linear-gradient(top, #0056b3 0%, #01458e 100%) !important;
+	background: linear-gradient(to bottom, #0056b3 0%, #01458e 100%) !important;
+	outline: none;
+}
+button, input[type="submit"], input[type="button"], input[type="reset"] {
+	background: #0056b3;
+	background: -webkit-linear-gradient(top, #0056b3 0%, #01458e 100%);
+	background: linear-gradient(to bottom, #0056b3 0%, #01458e 100%);
+	border: none;
+	border-bottom: 3px solid #01356c;
+	border-radius: 2px;
+	color: #fff;
+	display: inline-block;
+	padding: 11px 24px 10px;
+	text-decoration: none;
 }
