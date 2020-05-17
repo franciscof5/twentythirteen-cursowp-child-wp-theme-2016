@@ -9,10 +9,30 @@ Version:        0.1
 */
 
 @import url("../twentythirteen/style.css");
-
+.current_page_item a {
+	color: #0056b3 !important;
+	font-style: normal !important;
+	font-weight: 600;
+}
+.site-info a {
+	color: #000 !important;
+	float: right;
+}
+#main a {
+	color: #0056b3;
+}
+footer a {
+	color: #FFF !important;
+}
+footer .current_page_item a {
+	font-weight: 600;
+	color: #000 !important;
+}
+.entry-title a {
+	color: #000 !important;
+}
 .site-title, .site-description {
 	background: rgba(255,255,255,0.8) !important;
-	border-radius: 10px;
 	padding: 5px 10px;
 	text-align: center;
 	width: 540px;
@@ -20,4 +40,22 @@ Version:        0.1
 }
 .home-link {
 	padding-top: 58px !important;
+}
+h1,h2,
+.widget-title,
+.entry-title {
+	font-family: Lobster !important;
+	font-style: normal !important;
+}
+.entry-title {
+	/*color: #666666 !important;*/
+}
+.site-footer .sidebar-container {
+	background: #666;
+}
+.format-video {
+	background: #AAA !important;
+}
+.paging-navigation .meta-nav {
+	background: #666 !important;
 }
