@@ -15,7 +15,7 @@ Version:        0.1
 	font-weight: 600;
 }
 .site-header .search-form {
-	right: 0 !important;
+	right: -40px !important;
 }
 .site-info a {
 	color: #000 !important;
@@ -41,11 +41,11 @@ footer .current_page_item a {
 	background: rgba(255,255,255,0.8) !important;
 	padding: 5px 10px;
 	text-align: center;
-	width: 540px;
+	max-width: 540px;
 	margin-bottom: 4px;
 }
 .home-link {
-	padding-top: 58px !important;
+	padding-top: 30px !important;
 }
 h1,h2,
 .widget-title,
@@ -83,3 +83,8 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
 	padding: 11px 24px 10px;
 	text-decoration: none;
 }
+		@media (max-width: 767px) {
+			.site-header {
+				background-size: 1600px auto !important;
+			}
+		}
